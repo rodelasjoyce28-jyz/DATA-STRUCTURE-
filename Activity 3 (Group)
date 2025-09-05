@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+    
+    int hr, min, total_mininhr, total_min;
+    
+    cout << "Input hours: ";
+    cin >> hr;
+    
+    total_mininhr = hr * 60;
+    cout << "Input minutes: ";
+    cin >> min;
+    
+    total_min = total_mininhr + min;
+    cout << "Total: " << total_min << " minutes";
+    
+    return 0;
+}
