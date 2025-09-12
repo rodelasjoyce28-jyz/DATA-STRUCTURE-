@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int answer;
+
+    do {
+        cout << "1. What is 2 + 2? : ";
+        cin >> answer;
+    } while (answer != 4);
+
+    do {
+        cout << "2. How many sides does a triangle have? : ";
+        cin >> answer;
+    } while (answer != 3);
+
+    do {
+        cout << "3. What is 5 x 5? : ";
+        cin >> answer;
+    } while (answer != 25);
+
+    cout << "Awesome! 🎉 You finished the math quiz!" << endl;
+
+    return 0;
+}
