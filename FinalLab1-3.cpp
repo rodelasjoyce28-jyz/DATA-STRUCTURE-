@@ -1,6 +1,6 @@
 Final lab 1 - Array Index and Bounds
 
-  #include <iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -41,7 +41,7 @@ int main() {
 
 Final lab 2 - Array Initialization
 
-  #include <iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -85,7 +85,7 @@ int main() {
 
 Final Lab 3 - Partial Initialization
 
-  #include <iostream>
+#include <iostream>
 using namespace std;
 
 int main() {
