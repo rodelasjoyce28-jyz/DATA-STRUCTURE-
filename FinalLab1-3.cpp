@@ -41,4 +41,82 @@ int main() {
 
 Final lab 2
 
-  
+  #include <iostream>
+using namespace std;
+
+int main() {
+    double sales[] = {12.25, 32.50, 16.90, 23.00, 45.68};
+    int size = sizeof(sales) / sizeof(sales[0]);
+    double total = 0;
+
+    cout << "Sales values: ";
+    for (int i = 0; i < size; i++) {
+        cout << sales[i] << " ";
+        total += sales[i];
+    }
+
+    double average = total / size;
+    cout << "\nAverage Sales: " << average << endl;
+
+    return 0;
+}
+
+Modified Version
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    double sales[5] = {12.25, 32.50, 16.90};
+    int size = sizeof(sales) / sizeof(sales[0]);
+    double total = 0;
+
+    cout << "Sales values: ";
+    for (int i = 0; i < size; i++) {
+        cout << sales[i] << " ";
+        total += sales[i];
+    }
+
+    double average = total / size;
+    cout << "\nAverage Sales: " << average << endl;
+
+    return 0;
+}
+
+Final Lab 3
+
+  #include <iostream>
+using namespace std;
+
+int main() {
+    // Array declarations
+    int list1[10] = {0};
+    int list2[10] = {8, 5, 12};
+    int list3[3] = {5, 6, 3};
+    int list4[25] = {4, 7};
+
+    cout << "List 1: ";
+    for (int i = 0; i < 10; i++)
+        cout << list1[i] << " ";
+    cout << endl;
+
+    cout << "List 2: ";
+    for (int i = 0; i < 10; i++)
+        cout << list2[i] << " ";
+    cout << endl;
+
+    cout << "List 3: ";
+    for (int i = 0; i < 3; i++)
+        cout << list3[i] << " ";
+    cout << endl;
+
+    cout << "List 4: ";
+    for (int i = 0; i < 25; i++)
+        cout << list4[i] << " ";
+    cout << endl;
+
+    // Uncomment this part to see the compiler error
+    // int list5[5] = {4, , 7, 9};  // ❌ This line causes a syntax error
+
+    return 0;
+}
