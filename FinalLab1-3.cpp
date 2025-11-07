@@ -1,4 +1,4 @@
-Final lab 1 
+Final lab 1 - Array Index and Bounds
 
   #include <iostream>
 using namespace std;
@@ -39,7 +39,7 @@ int main() {
 }
 
 
-Final lab 2
+Final lab 2 - Array Initialization
 
   #include <iostream>
 using namespace std;
@@ -83,7 +83,7 @@ int main() {
     return 0;
 }
 
-Final Lab 3
+Final Lab 3 - Partial Initialization
 
   #include <iostream>
 using namespace std;
@@ -114,9 +114,6 @@ int main() {
     for (int i = 0; i < 25; i++)
         cout << list4[i] << " ";
     cout << endl;
-
-    // Uncomment this part to see the compiler error
-    // int list5[5] = {4, , 7, 9};  // ❌ This line causes a syntax error
 
     return 0;
 }
